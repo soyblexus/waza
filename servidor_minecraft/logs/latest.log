@@ -1,0 +1,143 @@
+[28Nov2024 00:01:07.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [portox2998: Set own game mode to Survival Mode]
+[28Nov2024 00:01:09.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ۞ portox2998 ha consumido un Tótem Revil
+[28Nov2024 00:02:04.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[28Nov2024 00:02:04.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: datapacks list<--[HERE]
+[28Nov2024 00:02:18.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[28Nov2024 00:02:18.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...pack list valivle<--[HERE]
+[28Nov2024 00:02:29.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [portox2998: Set own game mode to Creative Mode]
+[28Nov2024 00:02:44.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [portox2998: Set own game mode to Survival Mode]
+[28Nov2024 00:02:46.371] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[28Nov2024 00:02:46.374] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	Index: 14
+	Listeners:
+		0: NORMAL
+		1: ASM: class net.mcreator.theknocker.procedures.KnockerDeathCounterProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		2: ASM: class net.mcreator.theknocker.procedures.DespawnwhenkillProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		3: ASM: class net.owleafstudio.modminds.procedures.TotemRevilProcedureProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		4: ASM: class net.owleafstudio.modminds.procedures.TotemRaroProcedureProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		5: ASM: class net.owleafstudio.modminds.procedures.TotemEonProcedureProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		6: ASM: class net.owleafstudio.modminds.procedures.TotemEonMariposaProcedureProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		7: ASM: class net.owleafstudio.modminds.procedures.NutritotemProcedureProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		8: ASM: class net.owleafstudio.modminds.procedures.BuhoTotemProcedureProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		9: ASM: class net.mcreator.dedsafio3.procedures.TRPumProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		10: ASM: class net.mcreator.dedsafio3.procedures.TEsPumProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		11: ASM: class net.mcreator.dedsafio3.procedures.TERPumProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		12: ASM: class net.mcreator.dedsafio3.procedures.TER2PumProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		13: ASM: class net.mcreator.dedsafio3.procedures.TEPumProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		14: ASM: class net.mcreator.dedsafio3.procedures.NTPumProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		15: ASM: class net.mcreator.dedsafio3.procedures.DeathProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		16: ASM: class net.mcreator.dedsafio3.events.CabezasProcedure onPlayerDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		17: ASM: class net.mcreator.creation_and_adventure.procedures.TensionRelajacionAdvanceProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		18: ASM: class net.mcreator.creation_and_adventure.procedures.ShamanLogroProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		19: ASM: class net.mcreator.creation_and_adventure.procedures.KingLogroProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+		20: ASM: class net.mcreator.creation_and_adventure.procedures.CaballeroLogroProcedure onEntityDeath(Lnet/minecraftforge/event/entity/living/LivingDeathEvent;)V
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.2.0/net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at TRANSFORMER/dedsafio3@0.0.7/net.mcreator.dedsafio3.procedures.NTPumProcedure.execute(NTPumProcedure.java:84)
+	at TRANSFORMER/dedsafio3@0.0.7/net.mcreator.dedsafio3.procedures.NTPumProcedure.onEntityDeath(NTPumProcedure.java:34)
+	at TRANSFORMER/dedsafio3@0.0.7/net.mcreator.dedsafio3.procedures.__NTPumProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.2.0/net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1182)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_6469_(Player.java:840)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_6469_(ServerPlayer.java:695)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.LivingEntity.m_142535_(LivingEntity.java:1521)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_142535_(Player.java:1527)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.Block.m_142072_(Block.java:379)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_7840_(Entity.java:1128)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.LivingEntity.m_7840_(LivingEntity.java:312)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_289599_(ServerPlayer.java:941)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7185_(ServerGamePacketListenerImpl.java:930)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.m_5797_(ServerboundMovePlayerPacket.java:114)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.m_5797_(ServerboundMovePlayerPacket.java:42)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[28Nov2024 00:02:46.380] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos@66718092, suppressing error
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.mcreator.dedsafio3.procedures.NTPumProcedure.execute(NTPumProcedure.java:84) ~[dedsafio3-0.0.7-forge-1.20.1.jar%23119!/:?]
+	at net.mcreator.dedsafio3.procedures.NTPumProcedure.onEntityDeath(NTPumProcedure.java:34) ~[dedsafio3-0.0.7-forge-1.20.1.jar%23119!/:?]
+	at net.mcreator.dedsafio3.procedures.__NTPumProcedure_onEntityDeath_LivingDeathEvent.invoke(.dynamic) ~[dedsafio3-0.0.7-forge-1.20.1.jar%23119!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingDeath(ForgeHooks.java:303) ~[forge-1.20.1-47.2.0-universal.jar%23136!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:573) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1182) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.entity.player.Player.m_6469_(Player.java:840) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_6469_(ServerPlayer.java:695) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_142535_(LivingEntity.java:1521) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.entity.player.Player.m_142535_(Player.java:1527) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.level.block.Block.m_142072_(Block.java:379) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.entity.Entity.m_7840_(Entity.java:1128) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_7840_(LivingEntity.java:312) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_289599_(ServerPlayer.java:941) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7185_(ServerGamePacketListenerImpl.java:930) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.m_5797_(ServerboundMovePlayerPacket.java:114) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.m_5797_(ServerboundMovePlayerPacket.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[28Nov2024 00:03:34.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [portox2998: Added tag 'anim.muerte' to portox2998]
+[28Nov2024 00:03:52.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [portox2998: Added tag 'anim.muerte.portox2998' to portox2998]
+[28Nov2024 00:04:05.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [portox2998: Set own game mode to Creative Mode]
+[28Nov2024 00:04:38.477] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: portox2998 lost connection: Disconnected
+[28Nov2024 00:04:38.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: portox2998 left the game
+[28Nov2024 00:04:51.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28Nov2024 00:04:51.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Nov2024 00:04:51.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Nov2024 00:04:51.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Nov2024 00:04:51.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DEDSAFIO 3 - By TheNeitorLoL]'/minecraft:overworld
+[28Nov2024 00:04:52.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DEDSAFIO 3 - By TheNeitorLoL]'/creation_and_adventure:limbo
+[28Nov2024 00:04:52.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DEDSAFIO 3 - By TheNeitorLoL]'/minecraft:the_nether
+[28Nov2024 00:04:52.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DEDSAFIO 3 - By TheNeitorLoL]'/minecraft:the_end
+[28Nov2024 00:04:52.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Nov2024 00:04:52.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (limbo): All chunks are saved
+[28Nov2024 00:04:52.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Nov2024 00:04:52.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Nov2024 00:04:52.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
